@@ -5,7 +5,7 @@ description: Review a Zenn article draft for guidelines and best practices
 1. **[CRITICAL]** Read the Zenn Guidelines to ensure the agent has the latest context.
    - Read https://zenn.dev/guideline
 2. Read the project's specific agent guidelines.
-   - Read s:\ws\zenn\tech-survival-log\AGENTS.md
+   - Read AGENTS.md
 3. Read the target article.
    - Ask the user which article to review if not specified, or use the currently active file.
 4. Analyze the article against the following criteria:
