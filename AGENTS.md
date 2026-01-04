@@ -80,6 +80,7 @@ Agents must strictly follow Zenn's file structure and constraints.
 When asked to write a new article:
 
 1.  **Planning (Important for AntiGravity):**
+    - **Guideline Check:** Review [Zenn's Guidelines](https://zenn.dev/guideline) before planning.
     - Propose a **"Structure Plan"** (Artifact) first.
     - Define the target audience, the core "Survival Lesson," and the outline.
 2.  **Drafting:**
@@ -88,6 +89,7 @@ When asked to write a new article:
 3.  **Review:**
     - Ensure all Front Matter fields are correct.
     - Verify code snippets (if any) are syntactically correct.
+    - **Compliance:** Ensure the content adheres to [Zenn's Guidelines](https://zenn.dev/guideline).
 
 ### 🛠 Refactoring & Coding
 
