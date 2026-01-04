@@ -104,6 +104,22 @@ Use the appropriate method based on the image type:
     - Use an **HTML Comment** placeholder for Image Generation.
     - Format: `<!-- prompt for image generation -->`
 
+### 🧩 AI Stack Disclosure Template (Required)
+
+Append this section to the bottom of the article body (before the Verification Appendix).
+
+```markdown
+## 🛠️ この記事で活用した AI スタック
+
+このブログでは「AI 時代を生き抜く生存戦略」の実践として、以下の AI ツールをパートナーとして活用しています。
+
+- **GitHub Copilot / Google Antigravity:** Zenn 連携リポジトリ内での記事生成、PR 作成、作業プロセスの簡略化・自動化
+- **Gemini Advanced:** 記事ドラフトの推敲、表現の壁打ち、スライド生成
+- **NotebookLM:** 関連ドキュメントの読み込み、情報の整理
+
+※AI はあくまで支援ツールとして利用しており、最終的なファクトチェックと記事の確認は人間が行います。
+```
+
 ### ✅ Verification Appendix (Fact Check List)
 
 At the very end of the output (after the article conclusion), append a **"Verification Appendix"**. This section is for the author's internal use and will be deleted before publishing.
