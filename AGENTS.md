@@ -1,6 +1,6 @@
 # AI Agents & Copilot Guidelines 🛡️
 
-This document defines the context, personas, and workflows for AI agents (Google AntiGravity, GitHub Copilot) operating within this repository.
+This document defines the context, personas, and workflows for AI agents (Google Antigravity, GitHub Copilot) operating within this repository.
 
 ## 1. Project Context
 
@@ -121,7 +121,7 @@ It must include:
 
 When asked to write a new article:
 
-1.  **Planning (Important for AntiGravity):**
+1.  **Planning (Important for Antigravity):**
     - **Guideline Check:** Review [Zenn's Guidelines](https://zenn.dev/guideline) before planning.
     - Propose a **"Structure Plan"** (Artifact) first.
     - Define the target audience, the core "Survival Lesson," and the outline.
@@ -142,7 +142,7 @@ When writing code for this repository:
 
 ---
 
-## 5. AntiGravity Specific Instructions
+## 5. Antigravity Specific Instructions
 
 - **Artifacts:** Use Artifacts (Implementation Plans, Task Lists) for complex writing tasks.
 - **Context:** Always refer to `README.md` for the latest project philosophy.
