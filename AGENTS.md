@@ -73,7 +73,49 @@ Agents must strictly follow Zenn's file structure and constraints.
 
 ---
 
-## 4. Agent Workflows
+## 4. Output Requirements (Crucial for Verification)
+
+To facilitate human review and image generation, every article draft must follow these formats:
+
+### 🔗 Source Linking (New!)
+
+To allow readers to verify facts immediately, you **MUST** embed source URLs directly into the body text.
+
+- **Rule:** When explaining a specific API, library feature, or official specification, link the keyword to the official documentation.
+- **Do Not:** Do not just list links at the bottom.
+- **Example:**
+  - ❌ Bad: "Flow uses backpressure." (Source at bottom)
+  - ✅ Good: "Flow supports [backpressure handling via buffer](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/buffer.html) operators."
+
+### 📊 Diagrams & Illustrations
+
+Use the appropriate method based on the image type:
+
+1.  **Technical Diagrams (Flowcharts, Sequence, Architecture):**
+
+    - **MUST** use **Mermaid** notation directly in the markdown.
+    - Do NOT request image generation for logical diagrams (to ensure text remains editable).
+    - Example:
+      ```mermaid
+      graph TD; A-->B;
+      ```
+
+2.  **Emotional/Abstract Images (Eye-catch, Headers):**
+    - Use an **HTML Comment** placeholder for Image Generation.
+    - Format: `<!-- prompt for image generation -->`
+
+### ✅ Verification Appendix (Fact Check List)
+
+At the very end of the output (after the article conclusion), append a **"Verification Appendix"**. This section is for the author's internal use and will be deleted before publishing.
+It must include:
+
+1.  **Key Claims List:** Extract specific technical claims, stats, or specifications that need human verification.
+2.  **References:** List URLs or documentation names used to generate the content.
+3.  **Confidence Score:** Self-evaluation (1-5) of the draft's accuracy.
+
+---
+
+## 5. Agent Workflows
 
 ### 📝 Article Creation Workflow
 
