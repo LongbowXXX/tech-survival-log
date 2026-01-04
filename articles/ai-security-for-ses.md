@@ -41,7 +41,7 @@ SES エンジニアにとって、指揮命令系統は非常に重要です。
 
 ### 3. 「GitHub Copilot Business/Enterprise」を選ぶ理由
 
-なぜ現場では個人版（Individual）ではなくビジネス版（Business/Enterprise）が推奨されるのか。
+なぜ現場では個人版（Individual）ではなく[ビジネス版（Business/Enterprise）が推奨](https://resources.github.com/learn/pathways/copilot/essentials/establishing-trust-in-using-github-copilot/)されるのか。
 その最大の理由は **「データ保護（学習に利用されないこと）」** に尽きます。
 クライアントに安心してもらうための説明材料としても、この違いを理解しておくことは生存戦略上必須です。
 
