@@ -60,7 +60,7 @@ SES エンジニアにとって、指揮命令系統は非常に重要です。
 
 このブログでは「AI 時代を生き抜く生存戦略」の実践として、以下の AI ツールをパートナーとして活用しています。
 
-- **GitHub Copilot / Google AntiGravity:** Zenn 連携リポジトリ内での記事生成、PR 作成、作業プロセスの簡略化・自動化
+- **GitHub Copilot / Google Antigravity:** Zenn 連携リポジトリ内での記事生成、PR 作成、作業プロセスの簡略化・自動化
 - **Gemini Advanced:** 記事ドラフトの推敲、表現の壁打ち、スライド生成
 - **NotebookLM:** 関連ドキュメントの読み込み、情報の整理
 
