@@ -83,7 +83,7 @@ graph TD
 
 ### それでも「パーツ」は役に立つ
 
-しかし、プロジェクト全体としての自律動作はまだ難しくとも、Terraformer が生み出した**「パーツ」**は、役に立ちます。
+しかし、プロジェクト全体としての自律動作はまだ難しくとも、Terraformer が生み出した **「パーツ」** は、役に立ちます。
 
 - **[/terraform-context](https://github.com/LongbowXXX/terraformer/blob/main/.github/prompts/terraform-context.prompt.md)**: 既存のコードベースを解析して、AI に読ませるための要約ファイル（`AGENTS.md`やアーキテクチャなどのドキュメント）を一発生成する機能。これがあるだけで、Copilot の回答精度が劇的に上がります。
 - **[プロンプト（Skill）](https://github.com/LongbowXXX/terraformer/tree/main/.github/template-skills)**: 「設計書を作成する」「リファクタリングする」といった個別のタスクのプロンプトファイル（`.prompt.md`）。これを呼び出すだけでも、作業品質が安定します。
