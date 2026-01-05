@@ -139,7 +139,7 @@ It must include:
 When asked to write a new article:
 
 1.  **Planning (Important for Antigravity):**
-    - **Guideline Check:** Review [Zenn's Guidelines](https://zenn.dev/guideline) before planning.
+    - **Guideline Check:** Review [Zenn's Guidelines](https://zenn.dev/guideline) and [Markdown Guide](https://zenn.dev/zenn/articles/markdown-guide) before planning.
     - Propose a **"Structure Plan"** (Artifact) first.
     - Define the target audience, the core "Survival Lesson," and the outline.
 2.  **Drafting:**
