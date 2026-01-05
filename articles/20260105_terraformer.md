@@ -3,7 +3,7 @@ title: "既存コードをAIの居住可能惑星へ改造する「Terraformer�
 emoji: "🌍"
 type: "idea"
 topics: ["ai", "githubcopilot", "vscode", "promptengineering", "development"]
-published: false
+published: true
 ---
 
 昨今、GitHub Copilot や ChatGPT といった AI ツールが開発現場に浸透してきました。「AI にコードを書かせる」ことは当たり前になりつつあります。しかし、既存の（いわゆるレガシーな）プロジェクトに AI を導入しようとしたとき、こんな壁にぶつかったことはないでしょうか？
