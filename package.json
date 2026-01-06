@@ -1,0 +1,35 @@
+{
+  "name": "tech-survival-log",
+  "version": "1.0.0",
+  "private": true,
+  "description": "**AI時代を生き抜くための、システムエンジニアの技術生存戦略ログ。**",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book",
+    "lint": "textlint ./*.md ./articles/*.md ./books/*.md",
+    "fix": "textlint --fix ./*.md ./articles/*.md ./books/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongbowXXX/tech-survival-log.git"
+  },
+  "keywords": [
+    "zenn",
+    "technical-writing",
+    "ai",
+    "engineering",
+    "survival-log"
+  ],
+  "author": "Longbow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LongbowXXX/tech-survival-log/issues"
+  },
+  "homepage": "https://github.com/LongbowXXX/tech-survival-log#readme",
+  "devDependencies": {
+    "textlint": "^15.5.0",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "zenn-cli": "^0.2.11"
+  }
+}
