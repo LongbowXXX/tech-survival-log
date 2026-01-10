@@ -3,7 +3,7 @@ title: "【GitHub Copilot】agent-skills を利用したエージェントの役
 emoji: "🛡️"
 type: "tech"
 topics: ["vscode", "copilot", "ai", "promptengineering", "survival"]
-published: false
+published: true
 ---
 
 今回は、以前の記事で直面した「マルチエージェントシステムの破綻」という課題に対し、VS Code の最新機能と **新たに開発したプロンプトテクニック** を組み合わせることで解決策を見出したので共有します。
