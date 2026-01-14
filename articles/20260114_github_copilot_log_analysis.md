@@ -3,7 +3,7 @@ title: "GitHub Copilotの「脳内」をハックする：ログから読み解�
 emoji: "🕵️"
 type: "tech"
 topics: ["ai", "githubcopilot", "llm", "debug", "survival"]
-published: false
+published: true
 ---
 
 [前の記事](https://zenn.dev/longbow/articles/20260108_context_managing)では、「AI との対話におけるコンテキスト管理」についてお話ししました。今回はその続編として、**「実際に GitHub Copilot は裏側で何を考えているのか？」** という疑問に、エンジニアらしく「ログ解析」で切り込んでいきたいと思います。
