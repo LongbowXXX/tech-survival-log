@@ -29,9 +29,6 @@ Copilot Chat 右上の三点リーダーを押して、`Show Chat Debug View` �
 通常のチャット（Ask モード）で、「こんにちは」と会話した後のリクエストを見てみましょう。
 `Show Raw Request Body` で表示される JSON は、OpenAI の API を叩いたことがある人には見慣れた構造です。
 
-<details>
-<summary>📝 Ask モードの JSON ログ（クリックで展開）</summary>
-
 `````json
 {
   "model": "gpt-5.2",
@@ -89,8 +86,6 @@ Copilot Chat 右上の三点リーダーを押して、`Show Chat Debug View` �
 }
 `````
 
-</details>
-
 ここでのポイントはシンプルです。
 `system` ロールに「あなたは GitHub Copilot です」という基本定義が入り、`user` と `assistant` の会話履歴が配列として積み重なっていきます。これは予想通りですね。
 
@@ -99,8 +94,7 @@ Copilot Chat 右上の三点リーダーを押して、`Show Chat Debug View` �
 Agent モードでは、扱う情報量が爆発的に増えるため、JSON のまま読むのは苦行です。
 VS Code のログ画面にある「Export as markdown」のような機能を使って出力されたログを見てみましょう。
 
-<details>
-<summary>📝 Agent モードの ログ（クリックで展開）</summary>
+ボリューム感を把握するだけで、詳細は読み飛ばして結構です。
 
 ````markdown
 > 🚨 Note: This log may contain personal information such as the contents of your files or terminal output. Please review the contents carefully before sharing.
@@ -573,8 +567,6 @@ Follow instructions in [hello-world.prompt.md](file:///s%3A/ws/ai-character-comp
 
 </style>
 ````
-
-</details>
 
 ## 2. 魔境：Agent モードのプロンプト構造
 
