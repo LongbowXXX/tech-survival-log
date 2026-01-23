@@ -3,7 +3,7 @@ title: "【GitHub Copilot】 プロジェクトを「AI Ready」にするため�
 emoji: "🛡️"
 type: "tech"
 topics: ["ai", "githubcopilot", "documentation"]
-published: false
+published: true
 ---
 
 ## はじめに：AIは「察して」くれない
