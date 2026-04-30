@@ -3,7 +3,7 @@ title: "AIに書かせたコードで終わらせない。対面レビューを1
 emoji: "🛡️"
 type: "tech"
 topics: ["github", "code-review", "prompt-engineering", "mentorship"]
-published: false
+published: true
 ---
 
 エンジニアが AI を使ってコーディングするのが当たり前の時代になりました。
