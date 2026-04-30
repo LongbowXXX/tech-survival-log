@@ -2,14 +2,7 @@
 title: "AIに書かせたコードで終わらせない。対面レビューを10倍濃くする『理解確認』SKILL"
 emoji: "🛡️"
 type: "tech"
-topics:
-  [
-    "github",
-    "code-review",
-    "career-development",
-    "prompt-engineering",
-    "mentorship",
-  ]
+topics: ["github", "code-review", "prompt-engineering", "mentorship"]
 published: false
 ---
 
